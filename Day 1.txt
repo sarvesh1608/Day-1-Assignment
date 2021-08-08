@@ -1,0 +1,39 @@
+Q.1 What is time complexity T(O) for 
+   	a=1
+	b=1
+	while(b<=n)
+	{
+	  a=a+1;
+	  b=b+1;
+	  cout<<"Hi";
+	}
+
+Solution :
+	   T(O) = O(n) 
+Because it is incresing linearly.
+    
+
+
+Q.2 Write the output for following recursive code snippet for n = 3. 
+
+Solution :
+
+#include<iostream.h>
+#include<conio.h>
+int fun(int n)
+{
+ if(n>0)
+ {
+  fun(n-1);
+  cout<<n;
+ }
+ return(n);
+}
+void main()
+{
+ clrscr();
+ fun(3);
+ getch();
+}
+
+Output : 123
